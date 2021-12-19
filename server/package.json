@@ -14,14 +14,15 @@
   "dependencies": {
     "apollo-server-express": "^3.5.0",
     "bcrypt": "^5.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "graphql": "^15.8.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.2.2",
     "mongoose": "^5.9.10",
+    "node": "^17.3.0",
     "react-router-dom": "^5.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.15"
   }
 }
