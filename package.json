@@ -1,0 +1,32 @@
+{
+  "name": "mern-book-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "graphql": "^16.2.0",
+    "jwt-decode": "^3.1.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "heroku-postbuild": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaLDaley/MERN-book-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaLDaley/MERN-book-search/issues"
+  },
+  "homepage": "https://github.com/JessicaLDaley/MERN-book-search#readme"
+}
