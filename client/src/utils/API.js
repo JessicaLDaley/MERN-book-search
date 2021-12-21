@@ -7,7 +7,15 @@ export const getMe = (token) => {
     },
   });
 };
-
+export const createUser = (userData) => {
+  return fetch('/api/users', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(userData),
+  });
+};
 // remove saved book data for a logged in user
 export const deleteBook = (bookId, token) => {
   return fetch(`/api/users/books/${bookId}`, {
