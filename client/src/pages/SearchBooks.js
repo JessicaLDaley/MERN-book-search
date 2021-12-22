@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useMutation } from '@apollo/client';
+import 'bootstrap/dist/css/bootstrap.css';
 import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 import Auth from '../utils/auth';
 import { searchGoogleBooks } from '../utils/API';

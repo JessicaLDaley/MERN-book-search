@@ -1,5 +1,6 @@
 import React from 'react';
-import { Jumbotron,Container, CardColumns, Card, Button } from 'react-bootstrap';
+import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 import { useQuery, useMutation } from '@apollo/client';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_ME } from '../utils/queries';
