@@ -6,6 +6,7 @@ import Auth from '../utils/auth';
 import { searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 import { SAVE_BOOK } from '../utils/mutations';
+import "../styles.css";
 
 const SearchBooks = () => {
   // create state for holding returned google api data
@@ -102,7 +103,7 @@ const SearchBooks = () => {
               </Col>
               <Col xs={12} md={4}>
                 <Button type='submit' variant='success' size='lg'>
-                  Submit Search
+                  Submit Searh
                 </Button>
               </Col>
             </Form.Row>
@@ -119,9 +120,9 @@ const SearchBooks = () => {
         <CardColumns>
           {searchedBooks.map((book) => {
             return (
-              <Card key={book.bookId} border='dark'>
+              <Card className="bookcard" key={book.bookId} border='dark'>
                 {book.image ? (
-                  <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
+                  <Card.Img classNmae="book-cover" src={book.image} alt={`The cover for ${book.title}`} variant='top' />
                 ) : null}
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
