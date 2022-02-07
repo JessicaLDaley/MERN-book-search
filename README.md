@@ -1,5 +1,6 @@
 # MERN-book-search
 
+![bookss](https://user-images.githubusercontent.com/79805880/152872592-8c106b4a-7574-4489-8aef-ba0e7911d67d.png)
 
 ## Description 
 
@@ -8,15 +9,6 @@ MERN Book Search is a full-stack MERN app that uses the Google Books API. This a
 
 
 
-![MERN2](https://user-images.githubusercontent.com/79805880/147142273-c737a930-6642-44a3-aa98-28660c24e59f.png)
-
-
-
-![MERN3](https://user-images.githubusercontent.com/79805880/147148871-1df6a869-d388-405e-a2f6-d46dfd4947d6.png)
-
-  
-Deployed Heroku link soon to come... 
- 
   
 
   
